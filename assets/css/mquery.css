@@ -1,0 +1,273 @@
+/*============== Media Query Mobile View Starts ==============*/
+@media (min-width:320px) and (max-width:767px) {
+    .bg-img {
+        padding: 15px;
+    }
+
+    .hex-fs {
+        font-size: 20px;
+    }
+
+    .span-g {
+        font-size: 25px;
+    }
+
+    .hex-fs::before {
+        position: absolute;
+        content: "";
+        left: -20px;
+        top: -1px;
+        height: 50px;
+        width: 50px;
+        background-color: #00daa6;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    .btn-size {
+        font-size: 15px;
+    }
+
+    .sec-mg {
+        margin: 25px auto;
+    }
+
+    .sec-bgclr {
+        padding: 25px 0px;
+    }
+
+    .h1-mg {
+        font-size: 35px;
+    }
+
+    .nbar {
+        text-align: center;
+    }
+
+    .btn-bg {
+        font-size: medium;
+        /* width: 100%; */
+    }
+
+    .btn-bg1 {
+        /* width: 100%; */
+        font-size: medium;
+    }
+
+    .txt-center {
+        text-align: center;
+    }
+
+    .line1 {
+        margin: 50px auto;
+    }
+
+    .sec4 {
+        display: block;
+    }
+
+    .nav-size {
+        padding: 6px 8px;
+    }
+
+    .jc {
+        justify-content: center;
+    }
+
+    .h1-sty0 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .h1-sty0::before {
+        width: 20%;
+        transform: translate(25px, 20px);
+    }
+
+    .sec4-mg {
+        margin: 25px auto;
+    }
+
+    .h4-sty1 {
+        padding: 8px;
+        margin: 0px 35px;
+        color: #646361;
+    }
+
+    .my-img {
+        left: 35px;
+    }
+
+    .p-mg {
+        margin: 30px auto;
+    }
+
+    .h1-sty1 {
+        text-align: center;
+    }
+
+    .line3 {
+        background-color: #474747;
+        width: 30%;
+        margin: 25px auto;
+    }
+
+    .sec-7-bg {
+        height: 180px;
+        padding: 30px 0px;
+        margin: 0px;
+    }
+
+    .sec-7-h1 {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+
+    .btn-bg3 {
+        font-size: small;
+        margin: 15px auto;
+        /* width: 100%; */
+    }
+
+    .sec-8-h1 {
+        text-align: center;
+    }
+
+    .line4 {
+        width: 30%;
+        margin: 50px auto;
+    }
+
+    .fo-s {
+        font-size: medium;
+    }
+
+    .sec-10-h1 {
+        text-align: center;
+    }
+
+    .line5 {
+        width: 30%;
+        margin: 50px auto;
+    }
+
+    
+
+    .txt-agn {
+        text-align: center;
+    }
+
+    .ul-cls {
+        display: block;
+    }
+
+    .uls {
+        justify-content: center;
+    }
+
+    .btn-bg4 {
+        width: 100%;
+    }
+
+    .sec-6 {
+        margin: 25px auto;
+    }
+
+    .sec-8-mg {
+        margin: 25px auto;
+    }
+
+    .sec-10-mg {
+        margin: 25px auto;
+    }
+
+    .h1-sty0 {
+        position: relative;
+    }
+
+
+
+}
+
+
+/*============== Media Query Mobile View Ends ==============*/
+
+
+@media (min-width:425px) and (max-width:767px) {
+    .sec-7-bg {
+        padding: 30px 0px;
+    }
+}
+
+
+/*============== Media Query 768px Starts ==============*/
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .nbar {
+        text-align: center;
+    }
+
+    .p-mg {
+        margin: 30px auto;
+    }
+
+    .sec-7-bg {
+        height: auto;
+        padding: 50px 0px;
+
+    }
+
+    /* .mg-at {
+        margin: auto;
+    } */
+
+    .color {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .btn-bg4 {
+        width: 100%;
+    }
+
+    .sec-10-mg {
+        margin: 50px auto;
+    }
+
+}
+
+
+/*============== Media Query 991px Ends ==============*/
+
+
+@media (min-width:958px) and (max-width:991px) {
+    .sec4 {
+        display: block;
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .color {
+        font-size: 20px;
+    }
+
+    .pad {
+        padding: 30px 0px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .line1 {
+        width: 15%;
+    }
+}
+
+@media (min-width:376px) and (max-width:767px) {
+    .h1-sty0::before {
+        /* width: 20%; */
+        transform: translate(20px, 20px);
+    }
+}

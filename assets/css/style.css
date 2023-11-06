@@ -1,0 +1,429 @@
+/* article - 1 Start */
+
+.bg-img {
+    background: url('../img/pexels-pixabay-355465.jpg');
+    width: 100%;
+    /* padding: 100px; */
+    color: #fff;
+}
+
+.hex-fs {
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.hex-fs::before {
+    position: absolute;
+    content: "";
+    left: -25px;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+    background-color: #00daa6;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.span-g {
+    font-size: 60px;
+
+} 
+
+.nbar {
+    padding: 30px;
+}
+
+.h1-mg {
+    margin: 80px auto;
+    font-family: 'Noto Serif', serif;
+    font-size: 65px;
+}
+
+.btn-bg {
+    background-color: #fd4c45;
+    color: #fff;  
+    font-weight: 500;
+    margin: 0px auto;
+}
+
+/* article - 1 End */
+
+
+/* section - 2 Start */
+.sec-mg {
+    margin: 75px auto;
+    text-align: center;
+}
+
+.sec-h1 {
+    font-weight: 400;
+}
+.line {
+    background-color: #00daa6;
+    width: 25%;
+    height: 3px;
+    margin: 50px auto;
+}
+
+.sec-p {
+    margin: 40px auto;
+}
+
+.btn-bg1 {
+    background-color: #00daa6;
+    color: #fff;
+    /* width: 30%; */
+    font-weight: 500;
+}
+/* section - 2 End */
+
+
+/* section-3 Start */
+.line1 {
+    background-color: #fff;
+    width: 25%;
+    height: 3px;
+    margin: 50px 0px;
+
+}
+
+.sec-bgclr {
+    background-color: #646361;
+    color: #fff;
+    padding: 75px 0px;
+}
+
+.sec-bgclr h1 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+/* section -3 End */
+
+
+
+/* Section - 4 Start */
+.sec4-mg {
+    margin: 100px auto;
+}
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px auto;
+
+}
+
+.h1-sty0 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    color: #474747;
+    position: relative;
+}
+
+.h1-sty0::before {
+    background-color: #474747;
+    width: 60%;
+    height: 3px;
+    bottom: 0;
+    position: absolute;
+    transform: translate(0px, 20px);
+    content: "";
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #00daa6 !important;
+ }
+
+.card-bdr {
+    border: none;
+}
+
+.imgs {
+    width: 100%;
+    height: 225px;
+    /* object-fit: cover; */
+}
+
+
+/* Section - 4 End */
+
+
+.h4-sty1 {
+    padding: 25px;
+    margin: 0px 75px;
+    color: #646361;
+    /* margin: 50px auto; */
+}
+
+/* Section - 5 Start */
+.sec-5 {
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #00daa6;
+    color: #fff;
+}
+
+.img-position {
+    position: relative;
+}
+
+.my-img {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    outline: 3px solid #00daa6;
+    left: 150px;
+    top: -75px;
+}
+
+/* Section - 5 End */
+
+
+/* Section - 6 Start */
+.sec-6 {
+    margin: 75px auto;
+}
+.h1-sty1 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    color: #474747;
+}
+.line3 {
+    background-color: #474747;
+    width: 10%;
+    height: 3px;
+    margin: 50px 0px;
+}
+
+.crd-ft {
+    background-color: #00daa6;
+    color: #fff ;
+    text-align: center;
+}
+
+.crd-cls {
+    position: relative;
+    border: none;
+}
+
+.crd-cls:hover .image {
+    opacity: 0.3;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .crd-cls:hover .middle {
+    opacity: 1;
+}
+  .middle {
+    font-size: 30px;
+    text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* -ms-transform: translate(-50%, -50%); */
+  }
+
+  .middle a {
+    text-decoration: none;
+    color: black;
+  }
+
+/* Section - 6 End */
+
+
+
+/* Section - 7 Start */
+.sec-7-bg {
+    background: url('https://www.thedigitalfix.com/wp-content/sites/thedigitalfix/2022/06/The-Umbrella-Academy-season-4-release-date-The-Umbrella-Academy-cast.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding: 100px 0px;
+    /* margin: 50px auto; */
+}
+
+.sec-7-h1 {
+    font-weight: 400;
+    /* padding: 50px 0px; */
+    margin: 75px auto;
+  
+}
+
+.btn-bg3 {
+    background-color: #fd4c45;
+    color: #fff;
+    margin: 25px auto;
+    font-weight: 500;
+
+}
+/* Section - 7 End */
+
+
+/* Section - 8 Start */
+
+.sec-8-mg {
+    margin: 75px auto;
+
+}
+
+.sec-8-h1 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    color: #474747;
+}
+
+.line4 {
+    background-color: #474747;
+    width: 10%;
+    height: 3px;
+    margin: 50px 0px;
+}
+
+.icn {
+    font-size: 80px;
+    margin: 30px;
+}
+
+/* Section - 8 End */
+
+
+
+/* Section - 9 Start */
+.sec-9-bg {
+    background-color: #474747;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Section - 9 End */
+
+
+
+/* Section - 10 End */
+.sec-10-mg {
+    margin: 75px auto;
+}
+
+.sec-10-h1 {
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    color: #474747;
+}
+
+.line5 {
+    background-color: #474747;
+    width: 10%;
+    height: 3px;
+    margin: 50px 0px;
+}
+
+.ul-cls {
+    display: flex;
+    align-items: baseline;
+    margin: 30px auto;
+}
+
+.color {
+    color: #000;
+    font-size: 25px;
+}
+
+.color1:hover {
+    color: #4267B2;
+}
+
+.color2:hover {
+    color: #1DA1F2;
+}
+
+.color3:hover {
+    color: #E60023;
+}
+
+.color4:hover {
+    color: #FF00BF;
+}
+
+.color5:hover {
+    color: #DB4437;
+}
+
+.uls {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.fc-plain {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    border-radius: 0px;
+
+}
+
+.fc-plain:focus {
+    color: #212529;
+    border-bottom: 2px solid gray;
+    background-color: #fff;
+    border-color: gray;
+    outline: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-bg4 {
+    background-color: #fd4c45;
+    color: #fff;
+    margin: 25px auto;
+    font-weight: 500;
+    width: 25%;
+    border-radius: 10px;
+
+}
+/* Section - 10 End */
+
+
+/* Section - 11 End */
+.ft-bg {
+    background-color: #474747;
+    color: #fff;
+    padding: 15px;
+}
+
+.ft-cls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-icn {
+    font-size: 30px;
+    color: #fff;
+}
+/* Section - 11 End */
+
+
+
+
+
+
+
+
+
+
